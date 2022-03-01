@@ -1,3 +1,13 @@
 * {
   font-family: "Courier New", Courier, monospace;
 }
+
+body {
+  background-color: #e9d8a6;
+}
+
+@media (min-width: 600px) {
+  body {
+    background-color: #94d2bd;
+  }
+}
