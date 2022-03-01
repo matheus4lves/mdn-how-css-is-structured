@@ -7,10 +7,44 @@
     <title>How CSS is structured</title>
 
     <link rel="stylesheet" href="assets/styles/styles.css" />
+    <script src="assets/scripts/index.js"></script>
   </head>
   <body>
     <main>
-      <p>Create your test HTML here</p>
+      <h1>Let the games begin</h1>
+      <section>
+        <h2>Selectors</h2>
+        <p>Create your test HTML here</p>
+        <div class="box">
+          <p>This is a paragraph inside a box (div)</p>
+        </div>
+        <div class="box">
+          <p>First child</p>
+          <p>Second child</p>
+        </div>
+        <div class="intro">This text is directly inside a &lt;div&gt; element.</div>
+      </section>
+      <section>
+        <h2>Properties and values</h2>
+        <p>The font-size of this paragraph is set to 1.2rem. <strong>Rem</strong> values are relative to the root html element.</p>
+        <div id="outer-div">
+          Outer div
+          <div id="inner-div">Inner div. This has 50% of the width of the outer div</div>
+        </div>
+        <div id="bordered-div">I'm a bordered div!</div>
+      </section>
+      <section>
+        <h2>Functions</h2>
+        <h3>The calc() function</h3>
+        <div id="calc-outer">
+          I'm the outer haha
+          <div id="calc-inner">This div has (90% - 30px) of the outer div</div>
+        </div>
+        <h3>Transform functions</h3>
+        <div class="box-2"></div>
+        <div id="beard">This div has an image background</div>
+        <p>Source: <a href="https://pixabay.com/pt/vectors/sem-barbear-novembro-barbear-barba-4985994/">pixabay.com</a></p>
+      </section>
     </main>
   </body>
 </html>

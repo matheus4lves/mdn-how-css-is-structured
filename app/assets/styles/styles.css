@@ -1,3 +1,68 @@
 p {
   color: red;
 }
+
+.box p {
+  color: blue;
+}
+
+/* Hey CSS engine, style the any p element that is the first child of any element
+with a class of .box */
+.box p:first-child {
+  color: green;
+}
+
+.intro {
+  color: darkcyan;
+}
+
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#outer-div {
+  background-color: #023047;
+  color: #ffb703;
+}
+
+#inner-div {
+  background: #ffb703;
+  color: #023047;
+  width: 50%;
+}
+
+#bordered-div {
+  border: 10px groove tomato;
+}
+
+#calc-outer {
+  color: white;
+  background-color: darkorchid;
+}
+
+#calc-inner {
+  background-color: darkorange;
+  color: darkorchid;
+  font-weight: bold;
+  /* If you don't separate the operands from the operator using spaces, the calc function won't work. */
+  /* calc(90%-30px) won't work, for example */
+  width: calc(90% - 30px);
+}
+
+.box-2 {
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: #219ebc;
+  transform: rotate(0.8turn);
+}
+
+#beard {
+  width: 36%;
+  height: 719px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/beard-styles.png");
+  /* should always be specified */
+  background-color: #ede8d3;
+}
