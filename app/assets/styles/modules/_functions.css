@@ -21,11 +21,10 @@
 }
 
 #beard {
-  width: 36%;
-  height: 719px;
+  width: 27%;
+  height: 420px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("../../images/beard-styles.png");
-  /* should always be specified */
-  background-color: #ede8d3;
+  /* the background color should always be specified */
+  background: #ede8d3 url("../../images/beard-styles.png") -70px -150px;
 }
