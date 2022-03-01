@@ -1,0 +1,14 @@
+#outer-div {
+  background-color: #023047;
+  color: #ffb703;
+}
+
+#inner-div {
+  background: #ffb703;
+  color: #023047;
+  width: 50%;
+}
+
+#bordered-div {
+  border: 10px groove tomato;
+}

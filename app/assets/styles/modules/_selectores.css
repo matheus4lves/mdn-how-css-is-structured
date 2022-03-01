@@ -1,0 +1,17 @@
+p {
+  color: red;
+}
+
+.box p {
+  color: blue;
+}
+
+/* Hey CSS engine, style the any p element that is the first child of any element
+with a class of .box */
+.box p:first-child {
+  color: green;
+}
+
+.intro {
+  color: darkcyan;
+}
